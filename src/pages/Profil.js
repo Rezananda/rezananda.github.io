@@ -18,10 +18,6 @@ const Profil = () => {
             <td>6 Agustus 1997</td>
           </tr>
           <tr className='flex justify-between w-full'>
-            <td className='font-bold'>No. Handphpne</td>
-            <td>+62 81259672716</td>
-          </tr>
-          <tr className='flex justify-between w-full'>
             <td className='font-bold'>Email</td>
             <td>rezananda6897@gmail.com</td>
           </tr>

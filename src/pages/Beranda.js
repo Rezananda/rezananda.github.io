@@ -28,7 +28,6 @@ const Beranda = () => {
             <p className='font-bold'>Made Rezananda Putra</p>
           </div>
           <p className='italic text-sm'>"Seorang Business Analyst dan Coder yang selalu memberikan yang terbaik dalam pengembangan produk"</p>
-          <p className='font-bold'>☎️ +62 81259672716</p>
           <p className='font-bold'>📧 rezananda6897@gmail.com</p>
           <a href={file} className='bg-blue-500 px-4 py-2 text-white rounded-full' download>Download Resume</a>
         </div>
