@@ -10,13 +10,13 @@ const Beranda = () => {
             <img className='rounded-full' src={image} alt='person'/>
           </div>
           <div className='flex items-center justify-evenly w-full'>
-            <a href='https://www.linkedin.com/in/made-rezananda-putra-89a14016b/'>
+            <a href='https://www.linkedin.com/in/made-rezananda-putra-89a14016b/' target={'_blank'} rel='noreferrer'>
               <img className='w-10 h-10' alt='linkedin' src="https://img.icons8.com/color/48/000000/linkedin.png"/>
             </a>
-            <a href='https://www.instagram.com/rezanandaptr/'>
+            <a href='https://www.instagram.com/rezanandaptr/' target={'_blank'} rel='noreferrer'>
               <img className='w-10 h-10' alt='linkedin' src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
             </a>
-            <a href='https://twitter.com/rezanandaptr'>
+            <a href='https://twitter.com/rezanandaptr' target={'_blank'} rel='noreferrer'>
               <img className='w-10 h-10' alt='linkedin' src="https://img.icons8.com/color/48/000000/twitter--v1.png"/>
             </a>
           </div>
