@@ -22,14 +22,14 @@ const Beranda = () => {
           </div>
         </div>
         <div className='flex-1 w-full h-full flex flex-col items-center justify-center text-center gap-4 dark:text-white'>
-          <p className='text-xl font-bold'>Selamat Datang!👋</p>
+          <p className='text-xl font-bold'>Welcome!👋</p>
           <div className='flex items-center gap-1'>
-            <p>Saya, </p>
+            <p>My name, </p>
             <p className='font-bold'>Made Rezananda Putra</p>
           </div>
-          <p className='italic text-sm'>"Seorang Business Analyst dan Coder yang selalu memberikan yang terbaik dalam pengembangan produk"</p>
+          <p className='italic text-sm'>"A Business Analyst and Coder who always gives the best for Product Development."</p>
           <p className='font-bold'>📧 rezananda6897@gmail.com</p>
-          <a href={file} className='bg-blue-500 px-4 py-2 text-white rounded-full' download>Download Resume</a>
+          <a href={file} className='bg-blue-500 px-4 py-2 text-white rounded-full' download>Download My Resume</a>
         </div>
       </div>
   )

@@ -6,7 +6,7 @@ const Navbar = () => {
     const [colorTheme, setTheme] = UseDarkMode()
     const [sideBar, setSideBar] = useState(false)
     const location = useLocation()
-    const label = location.pathname === '/' ? 'BERANDA' : location.pathname === '/profil'? 'PROFIL' : location.pathname === '/resume' ? 'RESUME' : location.pathname === '/portofolio' ? 'PORTOFOLIO' : location.pathname === '/kontak' ? 'KONTAK' : null
+    const label = location.pathname === '/' ? 'HOME' : location.pathname === '/profil'? 'PROFILE' : location.pathname === '/resume' ? 'RESUME' : location.pathname === '/portofolio' ? 'PORTFOLIO' : null
 
   return (
     <div className='flex justify-between w-full items-center'>
@@ -42,12 +42,12 @@ const Navbar = () => {
             <ul className='flex flex-col md:flex-row gap-8 items-center'>
                 <li>
                     <NavLink to={'/'} onClick={() => setSideBar(false)} className={({isActive}) => isActive? 'flex bg-blue-500 rounded-full px-2 py-1 text-white': 'flex rounded-full px-2 py-1 text-gray-500'}>
-                        <p className='text-sm'>Beranda</p>
+                        <p className='text-sm'>Home</p>
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to={'/profil'} onClick={() => setSideBar(false)} className={({isActive}) => isActive? 'flex bg-blue-500 rounded-full px-2 py-1 text-white': 'flex rounded-full px-2 py-1 text-gray-500'}>
-                        <p className='text-sm'>Profil</p>
+                        <p className='text-sm'>Porfile</p>
                     </NavLink>
                 </li>
                 <li>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <NavLink to={'/portofolio'} onClick={() => setSideBar(false)} className={({isActive}) => isActive? 'flex bg-blue-500 rounded-full px-2 py-1 text-white': 'flex rounded-full px-2 py-1 text-gray-500'}>
-                        <p className='text-sm'>Portofolio</p>
+                        <p className='text-sm'>Portfolio</p>
                     </NavLink>
                 </li>
             </ul>

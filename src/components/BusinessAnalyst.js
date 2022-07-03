@@ -3,7 +3,7 @@ import React from 'react'
 const BusinessAnalyst = () => {
   return (
     <div className='flex flex-col gap-4 w-full dark:text-white'>
-      <p className='text-xs text-justify italic'>"Sebagai seorang Business Analyst, saya bertanggung jawab untuk menerjemahkan kebutuhan Bisnis menjadi sebuah Dokumentasi Sistem, salah satunya dokumentasi sistem untuk Application Programming Interface (API BCA)."</p>
+      <p className='text-xs text-justify italic'>"As a Business Analyst, I am responsible for translating Business Requirements into a System Documentation, one of which is System Documentation for Application Programming Interface (API BCA)."</p>
       <div className='md:grid md:grid-cols-2 md:grid-rows-2 md:gap-4 flex flex-col gap-2'>
         <div className='rounded border-l-4 border-blue-500 shadow-md px-4 py-2 flex w-full items-center md:justify-center md:gap-0 gap-2 md:flex-col dark:bg-black'>
           <div className='w-1/4 md:w-full flex items-center justify-center'>

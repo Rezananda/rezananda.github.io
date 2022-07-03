@@ -8,7 +8,7 @@ const Resume = () => {
     <div className='flex flex-col w-full items-center gap-4 dark:text-white'>
       <div className='flex flex-col items-center justify-center gap-2 md:w-1/2 px-4 py-2 rounded-lg border border-gray-100 dark:border-gray-500'>
         <div>
-            <p className='font-bold'>-PENGALAMAN KERJA SAYA-</p>
+            <p className='font-bold'>-WORKING EXPERIENCE-</p>
             <div className='w-full h-3 rounded-full bg-blue-500'></div>
         </div>
         <div className='flex flex-col'>
@@ -23,15 +23,15 @@ const Resume = () => {
                 <p className='font-bold'>Assistant Officer Business Analyst</p>
                 <p>(PT Bank Central Asia Tbk)</p>
               </div>
-              <p className='font-bold'>2019 - Sekarang</p>
-              <p className='text-sm italic'>PT Bank Central Asia Tbk (BCA) adalah salah satu Bank terbaik di Indonesia. Di Bank BCA saya bertanggung jawab dalam pengembangan produk untuk nasabah Bisnis</p>
+              <p className='font-bold'>2019 - Now</p>
+              <p className='text-sm italic'>At Bank BCA, I am responsible for Product Development for Business Customers.</p>
             </div>
           </div>
         </div>
       </div>
       <div className='flex flex-col items-center justify-center gap-2 md:w-1/2 w-full px-4 py-2 rounded-lg border border-gray-100 dark:border-gray-500'>
         <div>
-            <p className='font-bold'>-SKILL SAYA-</p>
+            <p className='font-bold'>-MY SKILLS-</p>
             <div className='w-full h-3 rounded-full bg-blue-500'></div>
         </div>
         <ul className='flex items-center bg-blue-50 gap-2 px-1 py-1 rounded-full dark:bg-black'>
