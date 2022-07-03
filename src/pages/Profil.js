@@ -98,12 +98,12 @@ const Profil = () => {
         </div>
         <div className='grid grid-cols-2 grid-rows-2 dark:text-black'>
           <div className='text-center p-6 bg-blue-50 rounded-tl-lg'>
-            <span className='text-xl'>🥘</span>
-            <p>Masak</p>
-          </div>
-          <div className='text-center p-6 bg-blue-100 rounded-tr-lg'>
             <span className='text-xl'>﹤⁄﹥</span>
             <p>Ngoding</p>
+          </div>
+          <div className='text-center p-6 bg-blue-100 rounded-tr-lg'>
+            <span className='text-xl'>🥘</span>
+            <p>Masak</p>
           </div>
           <div className='text-center p-6 bg-blue-100 rounded-bl-lg'>
             <span className='text-xl'>🏝</span>

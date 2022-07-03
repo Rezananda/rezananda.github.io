@@ -30,12 +30,8 @@ const Navbar = () => {
         :
         null
         }
-        {/* <style>
-            {
-              `.nav_slide:transform: translateY(-100%)`
-            }
-          </style> */}
         <div className={`${sideBar? 'flex bg-white w-3/6 absolute bottom-0 left-0 top-0 p-4 rounded-tr-xl rounded-br-xl border-r border-gray-200 flex-col gap-4 shadow-lg z-50 dark:bg-slate-800 dark:border-gray-700' : 'hidden'} md:block`}>
+        {/* <div className={`bg-white top-0 right-0 w-3/6 p-4 text-white fixed h-full z-40  ease-in-out duration-300 md:block ${sideBar? 'translate-x-0' : 'translate-x-full'}`}> */}
             <div className='flex w-full justify-end md:hidden'>
                 <button onClick={() => setSideBar(false)}>
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-gray-500 dark:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
