@@ -1,6 +1,6 @@
 import React from 'react'
 import image from '../assets/images/reza.jpeg'
-import file from '../assets/file/Resume Made Rezananda putra.pdf'
+import file from '../assets/file/Made Rezananda Putra_Resume.pdf'
 
 const Beranda = () => {
   return (
