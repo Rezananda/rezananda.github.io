@@ -11,20 +11,20 @@ const Beranda = () => {
           </div>
           <div className='flex items-center justify-evenly w-full'>
             <a href='https://www.linkedin.com/in/made-rezananda-putra-89a14016b/' target={'_blank'} rel='noreferrer'>
-              <img className='w-10 h-10' alt='linkedin' src="https://img.icons8.com/color/48/000000/linkedin.png"/>
+              <img className='w-8 h-8' alt='linkedin' src="https://img.icons8.com/color/48/000000/linkedin.png"/>
             </a>
             <a href='https://www.instagram.com/rezanandaptr/' target={'_blank'} rel='noreferrer'>
-              <img className='w-10 h-10' alt='linkedin' src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
+              <img className='w-8 h-8' alt='linkedin' src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
             </a>
             <a href='https://twitter.com/rezanandaptr' target={'_blank'} rel='noreferrer'>
-              <img className='w-10 h-10' alt='linkedin' src="https://img.icons8.com/color/48/000000/twitter--v1.png"/>
+              <img className='w-8 h-8' alt='linkedin' src="https://img.icons8.com/color/48/000000/twitter--v1.png"/>
             </a>
           </div>
         </div>
         <div className='flex-1 w-full h-full flex flex-col items-center justify-center text-center gap-4 dark:text-white'>
           <p className='text-xl font-bold'>Welcome!👋</p>
           <div className='flex items-center gap-1'>
-            <p>My name, </p>
+            <p>My name is </p>
             <p className='font-bold'>Made Rezananda Putra</p>
           </div>
           <p className='italic text-sm'>"A Business Analyst and Coder who always gives the best for Product Development."</p>

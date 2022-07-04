@@ -47,7 +47,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <NavLink to={'/profil'} onClick={() => setSideBar(false)} className={({isActive}) => isActive? 'flex bg-blue-500 rounded-full px-2 py-1 text-white': 'flex rounded-full px-2 py-1 text-gray-500'}>
-                        <p className='text-sm'>Porfile</p>
+                        <p className='text-sm'>Profile</p>
                     </NavLink>
                 </li>
                 <li>

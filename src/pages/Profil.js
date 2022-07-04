@@ -96,7 +96,7 @@ const Profil = () => {
           </div>
           <div className='text-center p-6 bg-blue-100 rounded-tr-lg'>
             <span className='text-xl'>🥘</span>
-            <p>Cook</p>
+            <p>Cooking</p>
           </div>
           <div className='text-center p-6 bg-blue-100 rounded-bl-lg'>
             <span className='text-xl'>🏝</span>
@@ -104,7 +104,7 @@ const Profil = () => {
           </div>
           <div className='text-center p-6 bg-blue-50 rounded-br-lg'>
             <span className='text-xl'>🎬</span>
-            <p>Watch Films</p>
+            <p>Watching Movies</p>
           </div>
         </div>
       </div>

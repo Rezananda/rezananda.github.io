@@ -10,7 +10,7 @@ const WebPortofolio = () => {
           </div>
           <div className='md:text-center text-start'>
             <p className='text-sm'>Web Resume</p>
-            <a className='text-center text-xs underline text-blue-600' target={'_blank'} rel='noreferrer' href='https://rezananda.github.io'>Lihat Detail</a>
+            <a className='text-center text-xs underline text-blue-600' target={'_blank'} rel='noreferrer' href='https://rezananda.github.io'>See Details</a>
           </div>
         </div>
         <div className='rounded border-l-4 border-blue-500 shadow-md px-4 py-2 flex w-full items-center md:justify-center md:gap-0 gap-2 md:flex-col dark:bg-black'>
@@ -19,7 +19,7 @@ const WebPortofolio = () => {
           </div>
           <div className='md:text-center text-start'>
             <p className='text-sm'>Clocker</p>
-            <a className='text-center text-xs underline text-blue-600' target={'_blank'} rel='noreferrer' href='https://clocker-84a50.web.app/login'>Lihat Detail</a>
+            <a className='text-center text-xs underline text-blue-600' target={'_blank'} rel='noreferrer' href='https://clocker-84a50.web.app/login'>See Details</a>
           </div>
         </div>
         <div className='rounded border-l-4 border-blue-500 shadow-md px-4 py-2 flex w-full items-center md:justify-center md:gap-0 gap-2 md:flex-col dark:bg-black'>
@@ -28,7 +28,7 @@ const WebPortofolio = () => {
           </div>
           <div className='md:text-center text-start'>
             <p className='text-sm'>HEI-ASYST</p>
-            <a className='text-center text-xs underline text-blue-600' target={'_blank'} rel='noreferrer' href='http://hei-asyst.herokuapp.com'>Lihat Detail</a>
+            <a className='text-center text-xs underline text-blue-600' target={'_blank'} rel='noreferrer' href='http://hei-asyst.herokuapp.com'>See Details</a>
           </div>
         </div>
         <div className='rounded border-l-4 border-blue-500 shadow-md px-4 py-2 flex w-full items-center md:justify-center md:gap-0 gap-2 md:flex-col dark:bg-black'>
@@ -37,7 +37,7 @@ const WebPortofolio = () => {
           </div>
           <div className='md:text-center text-start'>
             <p className='text-sm'>Web Service For COAP</p>
-            <a className='text-center text-xs underline text-blue-600' target={'_blank'} rel='noreferrer' href='https://github.com/Rezananda/skripsi'>Lihat Detail</a>
+            <a className='text-center text-xs underline text-blue-600' target={'_blank'} rel='noreferrer' href='https://github.com/Rezananda/skripsi'>See Details</a>
           </div>
         </div>
       </div>
