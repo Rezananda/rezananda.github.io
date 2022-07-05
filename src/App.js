@@ -9,7 +9,7 @@ import Resume from './pages/Resume';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/'>
       <Routes>
         <Route path='/' element={<Frame><Beranda/></Frame>}/>
         <Route path='/profil' element={<Frame><Profil/></Frame>}/>
